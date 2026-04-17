@@ -1,0 +1,97 @@
+
+.home-page{
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.heading-main{
+    color: blanchedalmond;
+   text-shadow: 2px 2px 4px  black;
+   text-align: center;
+   border: 2px solid burlywood;
+   padding: 10px;
+   box-shadow: 2px 2px 2px brown;
+   letter-spacing: 1px;
+   border-bottom: 3px solid palevioletred;
+}
+
+.post-list-item h2 a{
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.post-list-item h2 a:hover{
+    color: palevioletred;
+}
+
+/* pagination-controls */
+
+.pagination-controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.pagination-controls .page-info{
+    font-weight: 600;
+    color: #495057;
+}
+
+.pagination-controls .pagination-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.pagination-controls .btn{
+    padding: 8px 16px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.pagination-controls .btn:hover:not(:disabled){
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.pagination-controls .btn:disabled{
+    background-color: #cce5ff;
+    border-color: #cce5ff;
+    color: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Responsive for mobile */
+
+@media (max-width:768px){
+    .heading-main{
+        font-size: 1.5rem;
+    }
+
+    .post-list-item{
+        padding: 1rem;
+    }
+
+    .pagination-controls{
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .pagination-controls .pagination-buttons{
+        justify-content: center;
+    }
+}
+
+
