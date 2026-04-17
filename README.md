@@ -7,14 +7,14 @@
  The project needed to:
 
 - Implement client‑side routing with React Router.
-
 - Support full‑stack CRUD functionality.
-
 - Add basic user authentication and protect routes.
-
 - Handle and render Markdown content.
-
 - Show a clean MERN application structure.
+  
+https://github.com/user-attachments/assets/e2d8e8b7-b712-44b3-a0d8-b52ce971ee0c
+
+
 
 ### << Grinding procedure>>
 -> Set up the backend environment, initialize the Node.js server with Express, and establish a connection to the MongoDB database.
